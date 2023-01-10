@@ -1,5 +1,5 @@
 {% set name = "pytrends" %}
-{% set version = "4.8.0" %}
+{% set version = "4.9.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytrends-{{ version }}.tar.gz
-  sha256: 04b7b33eb6dfc120aa89cb4640688a8b633337276b6ddcea44ff0c7f6b6243d2
+  sha256: a54fc1e3171442b3c8f5c080a5e21df807bc4faad7790cc62b7ddb059eb0a94b
 
 build:
   number: 0
